@@ -2,7 +2,7 @@
     /* height: 450px; */
     width: 100%;
     border-radius: 10px;
-    border: 5px solid salmon;
+    border: 1px solid salmon;
     text-shadow: 10px 10px 10px red;
     position: relative;
 }
