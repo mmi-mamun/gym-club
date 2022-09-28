@@ -35,6 +35,11 @@
     text-align: start;
 }
 
+/* Right side  */
+.container-rightSide{
+    position: sticky;
+    top: 0;
+}
 .profile{
     display: flex;
     justify-content: space-evenly;

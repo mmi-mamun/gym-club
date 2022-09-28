@@ -20,7 +20,7 @@ const MainContainer = () => {
             <div className="left-side">         
                 <nav className='nav-container'>
                     <img className='img-nav' src={logo} alt="" />
-                    <h1 className='txt-nav'>ACTIVITY-CLUB</h1>
+                    <h1 className='txt-nav'>ACTIVE-GYM-CLUB</h1>
                 </nav>
                 <h1 className='txt'>Select today’s exercise</h1>
                 <div className="card-section">
@@ -32,6 +32,7 @@ const MainContainer = () => {
 
 
             <div className="right-side">
+                <div className="container-rightSide">
                 <div className="profile">
                     <div className="about-profile">
                         <img src={imgProfile} alt="" />
@@ -75,6 +76,7 @@ const MainContainer = () => {
                         <h3>Break time: </h3>
                     </div>
                     <button className='btn-complete'>Activity Completed</button>
+                </div>
                 </div>
             </div>
         </div>
