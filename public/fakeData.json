@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "name": "Chest Press",
+      "age": "25-31 years",
+      "timeRequired": 15,
+      "title": "accusamus beatae ad facilis cum qui sunt",
+      "url": "https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    },
+    {
+      "id": 2,
+      "name": "Dips",
+      "age": "28-35 years",
+      "timeRequired": 20,
+      "title": "reprehenderit est deserunt velit ipsam",
+      "url": "https://c4.wallpaperflare.com/wallpaper/491/880/32/power-scream-strength-workout-wallpaper-preview.jpg",
+      "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    },
+    {
+      "id": 3,
+      "name": "Bench press",
+      "age": "30-35 years",
+      "timeRequired": 25,
+      "title": "officia porro quia iusto qui ipsa ut modi",
+      "url": "https://images.pexels.com/photos/3837781/pexels-photo-3837781.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+    },
+    {
+      "id": 4,
+      "name": "Dumble",
+      "age": "20-25 years",
+      "timeRequired": 30,
+      "title": "culpa odio esse laboriosam voluptate repudiandae",
+      "url": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+    },
+    {
+      "id": 5,
+      "name": "Rowing",
+      "age": "23-28 years",
+      "timeRequired": 50,
+      "title": "natus nisi omnis facere molestiae rerum in",
+      "url": "https://images.pexels.com/photos/6551414/pexels-photo-6551414.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+    },
+    {
+      "id": 6,
+      "name": "Push ups",
+      "age": "22-25 years",
+      "timeRequired": 55,
+      "title": "accusamus ea aliquid et amet sequi nemo",
+      "url": "https://images.pexels.com/photos/6456133/pexels-photo-6456133.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+    },
+    {
+      "id": 7,
+      "name": "Cycling",
+      "age": "30-35 years",
+      "timeRequired": 60,
+      "title": "officia delectus vero aut explicabo molestias",
+      "url": "https://images.pexels.com/photos/3836831/pexels-photo-3836831.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+    },
+    {
+      "id": 8,
+      "name": "Pulling up",
+      "age": "25-35 years",
+      "timeRequired": 65,
+      "title": "aut porro officiis laborum odit ea laudantium corporis",
+      "url": "https://images.pexels.com/photos/3838290/pexels-photo-3838290.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+    },
+    {
+      "id": 9,
+      "name": "Seat up",
+      "age": "23-25 years",
+      "timeRequired": 70,
+      "title": "qui eius qui autem sed",
+      "url": "https://images.pexels.com/photos/3076516/pexels-photo-3076516.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+    },
+    {
+      "id": 10,
+      "name": "Running",
+      "age": "20-30 years",
+      "timeRequired": 75,
+      "title": "beatae et provident et ut vel",
+      "url": "https://images.pexels.com/photos/3757957/pexels-photo-3757957.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+    },
+    {
+      "id": 11,
+      "name": "CrossFit",
+      "age": "25-30 years",
+      "timeRequired": 80,
+      "title": "nihil at amet non hic quia qui",
+      "url": "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+    },
+    {
+      "id": 12,
+      "name": "Barbell",
+      "age": "20-25 years",
+      "timeRequired": 85,
+      "title": "mollitia soluta ut rerum eos perspiciatis maiores",
+      "url": "https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg",
+      "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+    }
+  ]

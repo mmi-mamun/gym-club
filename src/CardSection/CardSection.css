@@ -1,0 +1,36 @@
+.card-div{
+    /* height: 450px; */
+    width: 100%;
+    border-radius: 10px;
+    border: 5px solid salmon;
+    text-shadow: 10px 10px 10px red;
+    position: relative;
+}
+
+.card-div img{
+    height: 400px;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.style-info{
+    margin-bottom: 100px;
+}
+.btn-addToList{
+    width: 100%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+
+    padding: 10px;
+
+    position: absolute;
+    bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-addToList:hover{
+    background-color: salmon;
+}

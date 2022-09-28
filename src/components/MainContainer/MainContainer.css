@@ -1,4 +1,36 @@
 .main-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    margin: 20px 2%;
+}
+
+.nav-container{
+    background-color: whitesmoke;
+    color: blue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 5px;
+
+}
+
+.img-nav{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+}
+.txt-nav{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.txt{
+    text-align: start;
 }
