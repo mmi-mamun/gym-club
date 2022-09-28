@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import MainContainer from './components/MainContainer/MainContainer';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>ASSALAMU ALAIKUM</h1>
-      <p>BISMILLAHIR RAHMANIR RAHIM</p>
+      <Nav></Nav>
+      <MainContainer></MainContainer>
     </div>
   );
 }
