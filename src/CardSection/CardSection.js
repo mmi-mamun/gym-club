@@ -4,7 +4,12 @@ import './CardSection.css'
 
 
 const CardSection = (props) => {
-    const {name ,url, title, age, timeRequired} = props.card;
+    const {card,addToListHandler} = props;
+    const {name ,url, title, age, timeRequired} = card;
+
+    // const addToListHandler =() =>{
+    //     console.log('Clicked');
+    // }
     return (
         <div className='card-div'>
             <div className='style-info'>
@@ -14,7 +19,7 @@ const CardSection = (props) => {
             <h5>For age: {age}</h5>
             <h4>Time required: {timeRequired} Seconds</h4>
             </div>
-            <button className='btn-addToList'>Add to list</button>
+            <button onClick={()=>addToListHandler(card)} className='btn-addToList'>Add to list</button>
 
         </div>
     );

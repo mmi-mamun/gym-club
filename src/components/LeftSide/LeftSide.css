@@ -1,0 +1,30 @@
+.nav-container{
+    background-color: whitesmoke;
+    color: blue;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    margin: 5px 0;
+
+}
+
+.img-nav{
+    height: 50px;
+    width: 50px;
+    margin-right: 1%;
+}
+.txt-nav{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.txt{
+    text-align: start;
+}

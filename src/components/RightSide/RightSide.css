@@ -1,0 +1,59 @@
+.container-rightSide{
+    position: sticky;
+    top: 0;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile img{
+    margin-top: 20%;
+    width: 85px;
+    border-radius: 25%;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    
+}
+
+/* Break section */
+.break-section{
+    margin: 50px 5%;
+
+}
+.break-option{
+    margin: 30px 5%;
+    padding: 0 10%;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.break-btn{
+    padding: 20px 5px;
+    border-radius: 50%;
+}
+
+/* Exercise Details  */
+.exercise-details{
+    margin: 50px 5%;
+}
+.exercise-info{
+    text-align: start;
+    margin: 20px 15%;
+}
+.btn-complete{
+    width: 70%;
+    margin: 5px 10%;
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 10px;
+
+    padding: 10px;
+
+}
