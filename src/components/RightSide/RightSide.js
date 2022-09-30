@@ -31,7 +31,7 @@ const RightSide = ({ parentToChild }) => {
           </div>
           <div>
             <h1 className="about-profile">M MI Musafir</h1>
-            <p>Location: Dhaka</p>
+            <p><strong>Location: Dhaka</strong></p>
           </div>
         </div>
 
