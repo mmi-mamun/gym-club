@@ -37,3 +37,37 @@
   margin-top: 0px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .left-side {
+    grid-template-columns: 1fr;
+  }
+  .card-section {
+    grid-template-columns: 1fr;
+    order: 2;
+  }
+  .nav-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-txt {
+    font-size: 36px;
+  }
+  .txt {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-section {
+    padding: 0 20px;
+  }
+  .txt {
+    font-size: 20px;
+  }
+  .nav-txt {
+    font-size: 24px;
+  }
+}
