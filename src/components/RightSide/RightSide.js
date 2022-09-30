@@ -2,6 +2,7 @@ import React from "react";
 import "./RightSide.css";
 import { useState } from "react";
 import imgProfile from "../../images/profile.jpg";
+import Popup from "./popup";
 
 const RightSide = ({ parentToChild }) => {
   const total = parentToChild.reduce(
@@ -15,6 +16,11 @@ const RightSide = ({ parentToChild }) => {
     localStorage.setSelectedNumber("Break time", e.target.value);
   };
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div className="right-side">
@@ -117,11 +123,24 @@ const RightSide = ({ parentToChild }) => {
               )}
             </h3>
           </div>
-          <button className="btn-complete">
+          <button className="btn-complete" onClick={togglePopup}>
             Activity Completed
           </button>
         </div>
       </div>
+      {isOpen && (
+        <Popup
+          content={
+            <>
+              <h3>
+                You have done your job. <br /> <br /> 
+                <h2>Congratulations!</h2>
+              </h3>
+            </>
+          }
+          handleClose={togglePopup}
+        />
+      )}
     </div>
   );
 };
