@@ -1,17 +1,25 @@
-table, th, td {
-    border: 1px solid;
+table,
+th,
+td {
+  border: 1px solid;
 }
 
-.QnA-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    margin: 20px 2%;
-    gap: 10px;
+.QnA-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  margin: 20px 2%;
+  gap: 10px;
 
-    text-align: start;
+  text-align: start;
 }
 
-.oneThird{
-    padding: 5%;
+.oneThird {
+  padding: 5%;
 }
+
+.oneThird p {
+  text-align: justify;
+  line-height: 22px;
+}
+

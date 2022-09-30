@@ -1,36 +1,46 @@
-.card-div{
-    /* height: 450px; */
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid salmon;
-    text-shadow: 10px 10px 10px red;
-    position: relative;
+.card-div {
+  height: auto;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.card-div img{
-    height: 400px;
-    width: 100%;
-    border-radius: 8px 8px 0px 0px;
-}
-.style-info{
-    margin-bottom: 100px;
-}
-.btn-addToList{
-    width: 100%;
-    background: #FFE0B3;
-    border: 1px solid #95A0A7;
-    border-radius: 0px 0px 8px 8px;
-
-    padding: 10px;
-
-    position: absolute;
-    bottom: 0px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-div .card_iamge {
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
 }
 
-.btn-addToList:hover{
-    background-color: salmon;
+.card-div .card_iamge img {
+  width: 100%;
+}
+.style-info {
+  padding-bottom: 30px;
+}
+.btn-addToList {
+  width: 80%;
+  background: #7700ff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.btn-addToList:hover {
+  background-color: #4f00a8;
+}
+.btn-addToList:disabled,
+.btn-addToList[disabled] {
+  background-color: #00fc7e;
+  color: #fff;
+  cursor: no-drop;
 }

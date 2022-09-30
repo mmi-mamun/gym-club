@@ -1,30 +1,22 @@
-import './MainContainer.css'
-import LeftSide from '../LeftSide/LeftSide';
-import RightSide from '../RightSide/RightSide';
-import QnA from '../../QnA/QnA';
-import Footer from '../Footer/Footer';
+import "./MainContainer.css";
+import React, { useState } from "react";
+import LeftSide from "../LeftSide/LeftSide";
+import QnA from "../../QnA/QnA";
+import Footer from "../Footer/Footer";
 
 const MainContainer = () => {
-    // const addToListHandler = () =>{
+  return (
+    <div>
+      <div className="main-container">
+        <LeftSide></LeftSide>
+      </div>
 
-    // }
-
-
-
-    return (
-        <div>
-            <div className='main-container'>
-                <LeftSide></LeftSide>
-                <RightSide></RightSide>
-            </div>
-            
-            <div className='forBonusMark'>
-                <QnA></QnA>
-            </div>
-
-            <Footer></Footer>
-        </div>
-    );
+      <div className="forBonusMark">
+        <QnA></QnA>
+      </div>
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default MainContainer;
