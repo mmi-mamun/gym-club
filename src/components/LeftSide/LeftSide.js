@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardSection from "../../CardSection/CardSection";
+import RightSide from "../RightSide/RightSide";
 import "./LeftSide.css";
 import logo from "../../images/logo.png";
 
@@ -10,6 +11,8 @@ const LeftSide = () => {
       .then((res) => res.json())
       .then((data) => setCards(data));
   }, []);
+
+  const [details, setDetails] = useState([]);
 
   return (
     <div className="left-side">
@@ -26,6 +29,7 @@ const LeftSide = () => {
           ></CardSection>
         ))}
       </div>
+      <RightSide parentToChild={details}></RightSide>
     </div>
   );
 };
