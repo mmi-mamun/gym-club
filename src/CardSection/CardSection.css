@@ -24,7 +24,7 @@
 }
 .btn-addToList {
   width: 80%;
-  background: #7700ff;
+  background: purple;
   color: #fff;
   cursor: pointer;
   border: none;
@@ -38,9 +38,10 @@
 .btn-addToList:hover {
   background-color: #4f00a8;
 }
+
 .btn-addToList:disabled,
 .btn-addToList[disabled] {
-  background-color: #00fc7e;
+  background-color: slateblue;
   color: #fff;
   cursor: no-drop;
 }
