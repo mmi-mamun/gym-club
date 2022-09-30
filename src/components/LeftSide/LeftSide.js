@@ -13,6 +13,10 @@ const LeftSide = () => {
   }, []);
 
   const [details, setDetails] = useState([]);
+  const handleAddToList = (card) => {
+    const newDetails = [...details, card];
+    setDetails(newDetails);
+  };
 
   return (
     <div className="left-side">
@@ -24,6 +28,7 @@ const LeftSide = () => {
       <div className="card-section">
         {cards.map((card) => (
           <CardSection
+            handleAddToList={handleAddToList}
             card={card}
             key={card.id}
           ></CardSection>

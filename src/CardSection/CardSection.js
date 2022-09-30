@@ -1,10 +1,15 @@
+import { useState } from "react";
 import React from "react";
 import "./CardSection.css";
 
 const CardSection = (props) => {
   const { card } = props;
   const { name, url, title, age, timeRequired } = card;
-
+  const [disable, setDisable] = useState(false);
+  const [buttonText, setButtonText] = useState("Add to list");
+  function handleClick() {
+    setButtonText("Added");
+  }
   return (
     <div className="card-div">
       <div className="style-info">
@@ -16,8 +21,16 @@ const CardSection = (props) => {
         <h5>For age: {age}</h5>
         <h4>Time required: {timeRequired} Seconds</h4>
       </div>
-      <button className="btn-addToList">
-        Add to list
+      <button
+        disabled={disable}
+        onClick={() => {
+          props.handleAddToList(props.card);
+          setDisable(true);
+          handleClick();
+        }}
+        className="btn-addToList"
+      >
+        {buttonText}
       </button>
     </div>
   );
