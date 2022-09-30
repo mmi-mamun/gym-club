@@ -9,10 +9,10 @@ const QnA = () => {
         <br />
         <p>
           React uses a declarative paradigm that makes it easier to reason about
-          your application and aims to be both efficient and flexible. It
-          designs simple views for each state in your application, and React
-          will efficiently update and render just the right component when your
-          data changes. The declarative view makes your code more predictable
+          the application and aims to be both efficient and flexible. It
+          designs simple views for each state in this application, and React
+          will efficiently update and render just the right component when
+          data changes. The declarative view makes the code more predictable
           and easier to debug. A React application is made of multiple
           components, each responsible for rendering a small, reusable piece of
           HTML.
@@ -55,9 +55,7 @@ const QnA = () => {
           <br /> <br />
           <strong>Uses of useEffect except fetching data:</strong> <br />
           We can also apply useEffect for directly updating the DOM, and timers.
-          <br /> <br />
           useEffect accepts two arguments. The second argument is optional.
-          <br />
           <br />
           <br />
           <h3>Basic structure of useEffect</h3>

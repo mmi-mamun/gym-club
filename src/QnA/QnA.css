@@ -10,8 +10,10 @@ td {
   justify-content: space-between;
   margin: 20px 2%;
   gap: 10px;
-
+  background-color: darkslategrey;
   text-align: start;
+  border-radius: 5px;
+  color: black;
 }
 
 .oneThird {
@@ -23,3 +25,8 @@ td {
   line-height: 22px;
 }
 
+@media (max-width: 768px) {
+  .QnA-container {
+    grid-template-columns: 1fr;
+  }
+}
