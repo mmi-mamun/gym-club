@@ -1,5 +1,6 @@
 import React from "react";
 import "./RightSide.css";
+import { useState } from "react";
 import imgProfile from "../../images/profile.jpg";
 
 const RightSide = ({ parentToChild }) => {
@@ -7,6 +8,13 @@ const RightSide = ({ parentToChild }) => {
     (total, currentItem) => (total = total + currentItem.timeRequired),
     0
   );
+
+  const [selectedNumber, setSelectedNumber] = useState(0);
+
+  const selectNumber = (e) => {
+    localStorage.setSelectedNumber("Break time", e.target.value);
+  };
+
 
   return (
     <div className="right-side">
@@ -44,29 +52,50 @@ const RightSide = ({ parentToChild }) => {
           <h3>Add a break</h3>
           <div className="break-option">
             <button
+              onClick={(e) => {
+                setSelectedNumber(e.target.value);
+                localStorage.setItem("BreakTime", e.target.value);
+              }}
               value="10 Seconds"
               className="break-btn"
             >
               10s
             </button>
             <button
+              onClick={(e) => {
+                setSelectedNumber(e.target.value);
+                localStorage.setItem("BreakTime", e.target.value);
+              }}
               value="20 Seconds"
               className="break-btn"
             >
               20s
             </button>
             <button
+              onClick={(e) => {
+                setSelectedNumber(e.target.value);
+                localStorage.setItem("BreakTime", e.target.value);
+              }}
               value="30 Seconds"
               className="break-btn"
             >
               30s
             </button>
             <button
+              onClick={(e) => {
+                setSelectedNumber(e.target.value);
+                localStorage.setItem("BreakTime", e.target.value);
+              }}
+              value="40 Seconds"
               className="break-btn"
             >
               40s
             </button>
             <button
+              onClick={(e) => {
+                setSelectedNumber(e.target.value);
+                localStorage.setItem("BreakTime", e.target.value);
+              }}
               value="50 Seconds"
               className="break-btn"
             >
@@ -83,6 +112,9 @@ const RightSide = ({ parentToChild }) => {
             </h3>
             <h3>
               Break time:
+              {localStorage.getItem("BreakTime") && (
+                <span>{localStorage.getItem("BreakTime")}</span>
+              )}
             </h3>
           </div>
           <button className="btn-complete">
