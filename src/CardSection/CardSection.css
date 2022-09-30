@@ -9,14 +9,14 @@
   border-radius: 10px;
 }
 
-.card-div .card_iamge {
+.card-div .card_image {
   height: 150px;
   overflow: hidden;
   border-radius: 10px;
   display: flex;
 }
 
-.card-div .card_iamge img {
+.card-div .card_image img {
   width: 100%;
 }
 .style-info {

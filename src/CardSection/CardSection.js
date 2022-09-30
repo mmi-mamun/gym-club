@@ -13,7 +13,7 @@ const CardSection = (props) => {
   return (
     <div className="card-div">
       <div className="style-info">
-        <div className="card_iamge">
+        <div className="card_image">
           <img src={url} alt="" />
         </div>
         <h3>{name}</h3>
